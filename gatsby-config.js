@@ -3,5 +3,13 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "gatsby-project",
   },
-  plugins: [],
+  plugins: [{
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `Beth+Ellen`,
+      ],
+      display: 'swap'
+    }
+  }],
 };
